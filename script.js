@@ -1,0 +1,529 @@
+const root = document.getElementById("root");
+
+// fourth section
+
+function FourthSectionImageBlock() {
+    const img = document.createElement("img");
+    img.src = "./images/promo.png";
+
+    img.classList.add("fsimage");
+
+    return img;
+}
+
+function FourthSectionTextBlock() {
+    const container = document.createElement("div");
+
+    container.classList.add("fourth-section-text-block");
+
+    container.innerHTML = `
+        <h2>looking for exclusive digital services?</h2>
+        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et
+        porttitor. Integer non dapibus diam, ac eleifend lectus.</p>
+        <button class="fsbtn">let's talk</button>
+    `
+
+    return container;
+}
+
+function FourthSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("fourth-section");
+
+    container.appendChild(FourthSectionTextBlock());
+    container.appendChild(FourthSectionImageBlock());
+
+    return container;
+}
+// fourth section
+
+
+
+
+
+
+
+
+// third section
+function ViewAll() {
+    const container = document.createElement("div");
+
+    container.classList.add("view-all");
+
+    container.textContent = "view all services >"
+
+    return container
+}
+
+function ThirdSectionTextBlock() {
+    const container = document.createElement("div");
+
+    container.classList.add("third-section-text-block");
+
+    container.innerHTML = `
+        <p class="third-section-p big">
+            A brand for a company is like a reputation for a person. You
+            earn reputation by trying
+            to do hard things well.
+        </p>
+
+        <p class="third-section-p">
+            Maecenas volutpat, diam enim sagittis quam, id
+            porta quam. Sed id dolor consectetur fermentum
+            volutpat nibh, accumsan purus. Lorem ipsum dolor
+            sit semper amet, consectetur adipiscing elit. In
+            maximus ligula metus pellentesque mattis.
+        </p>
+
+        <p class="third-section-p">
+            Donec vel ultricies purus. Nam dictum sem, ipsum
+            aliquam . Etiam sit amet fringilla lacus. Pelenteque
+            suscipit ante at ullamcorper pulvinar neque portor.
+            Integer lectus. Praesent sed nisi eleifend, fermetum
+            orci amet, iaculis libero.
+        </p>
+    `
+
+    return container;
+}
+
+function ThirdSectionTabList() {
+    const container = document.createElement("ul");
+
+    container.classList.add("tabList");
+
+    container.innerHTML = `
+        <li class="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="40px" fill="black">
+                 <path d="M266.3 48.3L232.5 73.6c-5.4 4-8.5 10.4-8.5 17.1v9.1c0 6.8 5.5 12.3 12.3 12.3c2.4 0 4.8-.7 6.8-2.1l41.8-27.9c2-1.3 4.4-2.1 6.8-2.1h1c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8l-19.9 19.9c-5.8 5.8-12.9 10.2-20.7 12.8l-26.5 8.8c-5.8 1.9-9.6 7.3-9.6 13.4c0 3.7-1.5 7.3-4.1 10l-17.9 17.9c-6.4 6.4-9.9 15-9.9 24v4.3c0 16.4 13.6 29.7 29.9 29.7c11 0 21.2-6.2 26.1-16l4-8.1c2.4-4.8 7.4-7.9 12.8-7.9c4.5 0 8.7 2.1 11.4 5.7l16.3 21.7c2.1 2.9 5.5 4.5 9.1 4.5c8.4 0 13.9-8.9 10.1-16.4l-1.1-2.3c-3.5-7 0-15.5 7.5-18l21.2-7.1c7.6-2.5 12.7-9.6 12.7-17.6c0-10.3 8.3-18.6 18.6-18.6H400c8.8 0 16 7.2 16 16s-7.2 16-16 16H379.3c-7.2 0-14.2 2.9-19.3 8l-4.7 4.7c-2.1 2.1-3.3 5-3.3 8c0 6.2 5.1 11.3 11.3 11.3h11.3c6 0 11.8 2.4 16 6.6l6.5 6.5c1.8 1.8 2.8 4.3 2.8 6.8s-1 5-2.8 6.8l-7.5 7.5C386 262 384 266.9 384 272s2 10 5.7 13.7L408 304c10.2 10.2 24.1 16 38.6 16H454c6.5-20.2 10-41.7 10-64c0-111.4-87.6-202.4-197.7-207.7zm172 307.9c-3.7-2.6-8.2-4.1-13-4.1c-6 0-11.8-2.4-16-6.6L396 332c-7.7-7.7-18-12-28.9-12c-9.7 0-19.2-3.5-26.6-9.8L314 287.4c-11.6-9.9-26.4-15.4-41.7-15.4H251.4c-12.6 0-25 3.7-35.5 10.7L188.5 301c-17.8 11.9-28.5 31.9-28.5 53.3v3.2c0 17 6.7 33.3 18.7 45.3l16 16c8.5 8.5 20 13.3 32 13.3H248c13.3 0 24 10.7 24 24c0 2.5 .4 5 1.1 7.3c71.3-5.8 132.5-47.6 165.2-107.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM187.3 100.7c-6.2-6.2-16.4-6.2-22.6 0l-32 32c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6z"/>
+            </svg>
+
+            <p>branding</p>
+        </li>
+
+        <li class="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="40px" fill="black">
+                <path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z"/>
+            </svg>
+
+            <p>web design</p>
+        </li>
+
+        <li class="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="40px" fill="black">
+                <path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/>
+            </svg>
+
+            <p>graphic design</p>
+        </li>
+
+        <li class="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="60px" height="60px" fill="black">
+                <path d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25c-2.3-5.3-4.8-10.5-7.6-15.5L304 89.4c-3-5-6.3-9.9-9.8-14.6c-5.7-7.6-15.7-10.1-24.7-7.1l-28.2 9.3c-10.7-8.8-23-16-36.2-20.9L199 27.1c-1.9-9.3-9.1-16.7-18.5-17.8C173.9 8.4 167.2 8 160.4 8h-.7c-6.8 0-13.5 .4-20.1 1.2c-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9L50.5 67.8c-9-3-19-.5-24.7 7.1c-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6c-3.7 8.7-.9 18.6 6.2 25l22.2 19.8C32.6 161.9 32 168.9 32 176s.6 14.1 1.7 20.9L11.5 216.7c-7.1 6.3-9.9 16.2-6.2 25c2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6c5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8c6.7 .8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1c3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5c3.7-8.7 .9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM504.7 500.5c6.3 7.1 16.2 9.9 25 6.2c5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8c7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2l29.1-6.1c9.3-1.9 16.7-9.1 17.8-18.5c.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5L583.9 307c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7c-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6c-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1 .6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2c-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9c-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2L315.1 313c-9.3 1.9-16.7 9.1-17.8 18.5c-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7c4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6c8.7 3.7 18.6 .9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+            </svg>
+
+            <p>development</p>
+        </li>
+
+        <li class="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="40px" fill="black">
+                <path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/>
+            </svg>
+
+            <p>photography</p>
+        </li>
+    `
+
+    return container;
+}
+
+function ThirdSectionTitle() {
+    const container = document.createElement("div");
+
+    container.classList.add("third-section-title");
+
+    container.textContent = "services";
+
+    return container;
+}
+
+function ThirdSection() {
+    const container = document.createElement("section");
+
+    container.classList.add("third-section");
+
+    container.appendChild(ThirdSectionTitle());
+    container.appendChild(ThirdSectionTabList());
+    container.appendChild(ThirdSectionTextBlock());
+    container.appendChild(ViewAll());
+
+    return container;
+}
+// third section
+
+
+
+
+
+
+
+
+
+
+// second section
+function RowThirdDescription() {
+    const container = document.createElement("span");
+
+    container.classList.add("row-block-text");
+
+    container.textContent = `
+    Etiam sit amet fringilla lacus. Pellentesque
+    suscippiteme ante at ullamcorper pulvinar neque
+    porttitor. Integer lectus. Praesent sed nisi eleifend,
+    fermentum orci amet, iaculis libero. Donec vel
+    ultricies purus. Nam dictum sem, eu aliquam`
+
+    return container;
+}
+
+function RowSecondDescription() {
+    const container = document.createElement("span");
+
+    container.classList.add("row-block-text");
+
+    container.textContent = `
+    Lorem ipsum dolor sit amet, consectetur adipiscing 
+    elit. In maximus ligula semper metus pellentesque
+    mattis. Maecenas volutpat, diam enim sagittis
+    quam, id porta quam. Sed id dolor consectetur
+    fermentum nibh volutpat, accumsan purus.`
+
+    return container;
+}
+
+function ProgressDescriptionThird() {
+    const container = document.createElement("span");
+
+    container.classList.add("progress-description-third");
+    container.textContent = "development. %";
+
+    return container;
+}
+
+function ProgressDescriptionSecond() {
+    const container = document.createElement("span");
+
+    container.classList.add("progress-description-second");
+    container.textContent = "design. %";
+
+    return container;
+}
+
+function PorgressDescription() {
+    const container = document.createElement("span");
+    container.classList.add("progress-description");
+
+    container.textContent = "branding. %"
+
+    return container;
+}
+
+function ProgressLine() {
+    const container = document.createElement("div");
+
+    container.classList.add("progress-line");
+
+    const progressBlockFirst = document.createElement("div");
+    progressBlockFirst.classList.add("progress-first-line");
+
+    const progressBlockSecond = document.createElement("div");
+    progressBlockSecond.classList.add("progress-second-line");
+
+    container.appendChild(progressBlockFirst);
+    container.appendChild(progressBlockSecond);
+
+    return container;
+}
+
+function RowThird() {
+    const container = document.createElement("div");
+    container.classList.add("row-blocks");
+
+    container.appendChild(RowThirdDescription());
+
+    return container;
+}
+
+function RowSecond() {
+    const container = document.createElement("div");
+    container.classList.add("row-blocks");
+
+    container.appendChild(RowSecondDescription());
+
+    return container;
+}
+
+function RowFirst() {
+    const container = document.createElement("div");
+    container.classList.add("row-blocks");
+
+    container.appendChild(ProgressLine());
+    container.appendChild(PorgressDescription());
+
+    container.appendChild(ProgressLine());
+    container.appendChild(ProgressDescriptionSecond());
+
+    container.appendChild(ProgressLine());
+    container.appendChild(ProgressDescriptionThird());
+    
+
+    return container;
+}
+
+function Row() {
+    const container = document.createElement("div");
+
+    container.classList.add("row");
+
+    container.appendChild(RowFirst());
+    container.appendChild(RowSecond());
+    container.appendChild(RowThird());
+
+    return container;
+}
+
+function SecondSectionTitle() {
+    const container = document.createElement("h2");
+
+    container.classList.add("second-section-title");
+
+    container.textContent = "about studio";
+
+    const a = document.createElement("a");
+    a.classList.add("second-section-link");
+    a.textContent = "more about us >";
+
+    container.appendChild(a);
+
+    return container;
+}
+
+function About() {
+    const container = document.createElement("div");
+
+    container.classList.add("about-container");
+
+    container.appendChild(SecondSectionTitle());
+    container.appendChild(Row());
+
+    return container;
+}
+
+function SecondSection() {
+    const container = document.createElement("section");
+
+    container.classList.add("second-section");
+
+    container.appendChild(About());
+
+    return container;
+}
+
+// second section
+
+
+
+
+
+
+
+
+
+
+// first section
+
+function SecondText() {
+    const container = document.createElement("div");
+
+    container.classList.add("second-line");
+
+    container.textContent = "Extraordinary art studio & creative minimalism lovers";
+
+    return container;
+}
+
+function FirstText() {
+    const container = document.createElement("div");
+
+    container.classList.add("first-line");
+
+    container.textContent = "thomas rythm";
+
+    return container;
+}
+
+function Animations() {
+    const header = document.querySelector(".header-wrap");
+    const burger = document.querySelector(".burger-wrap-block");
+
+    if(scrollY >= 120) {
+        header.classList.add("fixed");
+        burger.style.marginTop = "80px";
+    } else {
+        header.classList.remove("fixed");
+        burger.style.marginTop = "0px";
+    }
+}
+
+
+function BurgerWrap() {
+    const container = document.createElement("div");
+    container.classList.add("burger-wrap-block");
+
+    container.innerHTML = `
+        <div class="items home">home
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items">pages
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items">elements
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items">portfolio
+            <div class="round">▼</div>
+        </div>
+
+
+        <div class="items">blog
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items">shop
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items"></div>
+
+        <div class="items">rate us
+            <div class="round">▼</div>
+        </div>
+
+        <div class="items">join us
+            <div class="round">▼</div>
+        </div>
+    `
+    return container;
+}
+
+function BurgerMenu() {
+    const container = document.createElement("div");
+    container.classList.add("burger-wrap");
+
+    container.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="100%" height="100%" fill="white"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    `
+
+    container.addEventListener("click", (e) => {
+        const burgerBlock = document.querySelector(".burger-wrap-block");
+        burgerBlock.classList.toggle("burger-wrap-list");
+    })
+
+    return container;
+}
+
+function Navigation() {
+    const container = document.createElement("ul");
+    container.classList.add("navigation-wrap");
+
+    container.innerHTML = `
+        <li>Home ▼</li>
+        <li>Pages ▼</li>
+        <li>Elements ▼</li>
+        <li>Portfolio ▼</li>
+        <li>Blog ▼</li>
+        <li>Shop ▼</li>
+        <span>   </span>
+
+        <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="8px" height="8px" fill="white">
+            <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+        </svg> 
+        Search
+        </li>
+
+        <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="8px" height="8px" fill="white">
+            <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+        </svg>
+        Cart(0)
+        </li>
+
+        <li>Eng ▼</li>
+    `
+
+    const forEach = container.querySelectorAll("li");
+
+    forEach.forEach((items) => {
+        items.style.listStyleType = "none";
+        items.style.color = "#ffffffb3";
+        items.style.cursor = "pointer";
+    });
+
+    return container;
+}
+
+function Logo() {
+    const container = document.createElement("div");
+    container.classList.add("logo");
+    container.style.backgroundImage = `url("./images/logo-white.png")`;
+    container.style.backgroundSize = "100%";
+    container.style.backgroundRepeat = "no-repeat";
+
+    return container;
+}
+
+function Header() {
+    const container = document.createElement("div");
+    container.classList.add("header-wrap");
+
+    container.appendChild(Logo());
+    container.appendChild(Navigation());
+    container.appendChild(BurgerMenu());
+
+    return container;
+}
+
+function FirstSection() {
+    const container = document.createElement("section");
+    container.classList.add("first-section");
+
+    container.appendChild(Header());
+    container.appendChild(BurgerWrap());
+    container.appendChild(FirstText());
+    container.appendChild(SecondText());
+
+    return container;
+}
+
+function FirstBackground() {
+    const backgroundImage = document.createElement("div");
+    backgroundImage.classList.add("first-section-bg");
+
+    backgroundImage.appendChild(FirstSection());
+
+
+    return backgroundImage;
+}
+
+// first section
+
+
+root.appendChild(FirstBackground());
+root.appendChild(SecondSection());
+root.appendChild(ThirdSection());
+root.appendChild(FourthSection());

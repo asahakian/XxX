@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: white;
+    background: black;
+  }
+
+.first-section-bg {
+    width: 100%;
+    height: 745px;
+    background-image: url("./images/section-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(34,34,34, .3);
+}
+
+.header-wrap {
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed {
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: 0.5s;
+    animation: sticy 1s;
+}
+
+@keyframes sticy {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 0; 
+    } 
+}
+
+.logo {
+    width: 8%;
+    height: 27px;
+}
+
+.navigation-wrap {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    font-family: 'Open Sans', arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.burger-wrap {
+    display: none;
+}
+
+.items {
+    display: none;
+}
+
+.first-line {
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    margin-top: 250px;
+    font-size: 30px;
+    font-family: 'Dosis', arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 60px;
+    text-align: center;
+    opacity: .9;
+}
+
+.second-line {
+    width: 100%;
+    height: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    opacity: .35;
+}
+
+
+.second-section {
+    width: 100%;
+    height: 550px;
+    padding: 100px;
+}
+
+.about-container {
+    width: 100%;
+    height: 100%;
+}
+
+.second-section-title {
+    width: 100%;
+    height: 50px;
+    color: #111111;
+    padding: 10px;
+    text-align: left !important;
+    font-size: 18px ;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase
+}
+
+.second-section-link {
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-blocks {
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+}
+
+.progress-line {
+    width: 90%;
+    height: 2px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.progress-first-line {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+}
+
+.progress-second-line {
+    width: 10%;
+    height: 100%;
+    background-color: #999999;
+}
+
+.progress-description, .progress-description-second, .progress-description-third {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.row-block-text {
+    color: #777777;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third-section {
+    width: 100%;
+    height: 800px;
+    border-top: 1px solid #999999;
+}
+
+.third-section-title {
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tabList {
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation {
+    width: 18%;
+    height: 120px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.presentation > p {
+    margin-top: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+}
+
+.third-section-text-block {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-section-p {
+    width: 30%;
+    padding: 13px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.big {
+    font-size: 25px;
+}
+
+.view-all {
+    width: 100%;
+    height: 30px;
+    margin-top: 70px;
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fourth-section {
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/section-bg-2\ .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 200px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-section-text-block {
+    width: 40%;
+    height: 200px;  
+    padding: 10px;
+    margin-top: 150px;
+}
+
+.fourth-section-text-block > h2 {
+    height: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+}
+
+.fourth-section-text-block > p {
+    color: #ffffffb3;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fsbtn {
+    width: 30%;
+    height: 40px;
+    background-color: #ffffffcc;
+    margin-top: 30px;
+    border: none;
+    border-radius: 0.225rem;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    cursor: pointer;
+}
+
+.fsimage {
+    position: relative;
+    z-index: 998;
+    bottom: 50px;
+}
