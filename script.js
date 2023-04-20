@@ -1,5 +1,103 @@
 const root = document.getElementById("root");
 
+// fifth section
+
+function FifthSecLogoThree() {
+    const container = document.createElement("div");
+
+    container.classList.add("fifth-sec-logo");
+
+    container.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="60px" height="60px" fill="#111111">
+            <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+        </svg>
+
+        <h3>3. product</h3>
+    `
+
+    return container;
+}
+
+function FifthSecLogoTwo() {
+    const container = document.createElement("div");
+
+    container.classList.add("fifth-sec-logo");
+
+    container.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="60px" height="60px" fill="#111111">
+        <path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/>
+    </svg>
+
+    <h3>2. make</h3>
+    `
+
+    return container;
+}
+
+function FifthSecLogoOne() {
+    const container = document.createElement("div");
+
+    container.classList.add("fifth-sec-logo");
+
+    container.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="60px" height="60px" fill="#111111">
+        <path d="M284.046,224.8a34.114,34.114,0,1,0,34.317,34.113A34.217,34.217,0,0,0,284.046,224.8Zm-110.45,0a34.114,34.114,0,1,0,34.317,34.113A34.217,34.217,0,0,0,173.6,224.8Zm220.923,0a34.114,34.114,0,1,0,34.317,34.113A34.215,34.215,0,0,0,394.519,224.8Zm153.807-55.319c-15.535-24.172-37.31-45.57-64.681-63.618-52.886-34.817-122.374-54-195.666-54a405.975,405.975,0,0,0-72.032,6.357,238.524,238.524,0,0,0-49.51-36.588C99.684-11.7,40.859.711,11.135,11.421A14.291,14.291,0,0,0,5.58,34.782C26.542,56.458,61.222,99.3,52.7,138.252c-33.142,33.9-51.112,74.776-51.112,117.337,0,43.372,17.97,84.248,51.112,118.148,8.526,38.956-26.154,81.816-47.116,103.491a14.284,14.284,0,0,0,5.555,23.34c29.724,10.709,88.549,23.147,155.324-10.2a238.679,238.679,0,0,0,49.51-36.589A405.972,405.972,0,0,0,288,460.14c73.313,0,142.8-19.159,195.667-53.975,27.371-18.049,49.145-39.426,64.679-63.619,17.309-26.923,26.07-55.916,26.07-86.125C574.394,225.4,565.634,196.43,548.326,169.485ZM284.987,409.9a345.65,345.65,0,0,1-89.446-11.5l-20.129,19.393a184.366,184.366,0,0,1-37.138,27.585,145.767,145.767,0,0,1-52.522,14.87c.983-1.771,1.881-3.563,2.842-5.356q30.258-55.68,16.325-100.078c-32.992-25.962-52.778-59.2-52.778-95.4,0-83.1,104.254-150.469,232.846-150.469s232.867,67.373,232.867,150.469C517.854,342.525,413.6,409.9,284.987,409.9Z"/>
+    </svg>
+
+    <h3>1. discuss</h3>
+    `
+
+    return container;
+}
+
+function FifthSecTxt() {
+    const container = document.createElement("div");
+
+    container.classList.add("fifth-sec-txt");
+
+    container.innerHTML = `
+        <h3>WORK PROCESS</h3>
+
+        <p>Lorem ipsum dolor sit amet, c-r
+        adipiscing elit. In maximus ligula semper
+        metus pellentesque mattis. Maecenas
+        volutpat, diam enim.</p>
+    `
+
+    return container;
+}
+
+function FifthSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("fifth-section");
+
+    container.appendChild(FifthSecTxt());
+    container.appendChild(FifthSecLogoOne());
+    container.appendChild(FifthSecLogoTwo());
+    container.appendChild(FifthSecLogoThree());
+
+    return container;
+}
+
+
+
+
+
+
+
+// fifth section
+
+
+
+
+
+
+
+
+
+
+
 // fourth section
 
 function FourthSectionImageBlock() {
@@ -527,3 +625,4 @@ root.appendChild(FirstBackground());
 root.appendChild(SecondSection());
 root.appendChild(ThirdSection());
 root.appendChild(FourthSection());
+root.appendChild(FifthSection());

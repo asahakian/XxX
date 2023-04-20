@@ -36,11 +36,13 @@
 
 .fixed {
     background-color: black;
+    height: 55px;
+    padding: 17px;
     position: fixed;
     z-index: 999;
     top: 0;
     transition: 0.5s;
-    animation: sticy 1s;
+    animation: sticy 0.5s;
 }
 
 @keyframes sticy {
@@ -325,4 +327,52 @@
     position: relative;
     z-index: 998;
     bottom: 50px;
+}
+
+.fifth-section {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-sec-txt {
+    width: 20%;
+    height: 150px;
+    margin: auto;
+    color: black;
+}
+
+.fifth-sec-txt > h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+}
+
+.fifth-sec-txt > p {
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fifth-sec-logo {
+    width: 10%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth-sec-logo > h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    color: #111111;
 }

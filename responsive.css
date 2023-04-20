@@ -182,6 +182,32 @@
     .fsimage {
         width: 100%;
     }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 18px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .fifth-sec-logo {
+        width: 100%;
+    }
 }
 
 @media (min-width: 281px) and (max-width: 361px) {
@@ -366,6 +392,32 @@
     }
 
     .fsimage {
+        width: 100%;
+    }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 18px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .fifth-sec-logo {
         width: 100%;
     }
 }
@@ -556,6 +608,32 @@
     .fsimage {
         width: 100%;
     }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 18px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .fifth-sec-logo {
+        width: 100%;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 391px) {
@@ -567,7 +645,7 @@
         background-position: center;
     }
     
-    .first-section {
+    .first-section {    
         height: 845px;
     }
 
@@ -745,6 +823,32 @@
     .fsimage {
         width: 100%;
         display: block;
+    }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 20px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .fifth-sec-logo {
+        width: 100%;
     }
 }
 
@@ -933,6 +1037,32 @@
     }
 
     .fsimage {
+        width: 100%;
+    }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 20px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .fifth-sec-logo {
         width: 100%;
     }
 }
@@ -1124,6 +1254,32 @@
     .fsimage {
         width: 100%;
     }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 20px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .fifth-sec-logo {
+        width: 100%;
+    }
 }
 
 @media (min-width: 416px) and (max-width: 426px) {
@@ -1310,6 +1466,32 @@
     }
 
     .fsimage {
+        width: 100%;
+    }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 20px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .fifth-sec-logo {
         width: 100%;
     }
 }
@@ -1500,6 +1682,32 @@
     .fsimage {
         width: 100%;
     }
+
+    .fifth-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .fifth-sec-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fifth-sec-txt > h3 {
+        font-size: 20px;
+    }
+
+    .fifth-sec-txt > p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .fifth-sec-logo {
+        width: 100%;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 769px) {
@@ -1666,6 +1874,18 @@
         height: 270px;
         bottom: 0;
         top: 40px;
+    }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-sec-txt {
+        width: 30%;
+    }
+
+    .fifth-sec-logo {
+        width: 20%;
     }
 
 }
@@ -1835,6 +2055,18 @@
         bottom: 0;
         top: 40px;
     }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-sec-txt {
+        width: 30%;
+    }
+
+    .fifth-sec-logo {
+        width: 20%;
+    }
 }
 
 @media (min-width: 821px) and (max-width: 913px) {
@@ -2003,6 +2235,18 @@
         bottom: 0;
         top: 40px;
     }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-sec-txt {
+        width: 30%;
+    }
+
+    .fifth-sec-logo {
+        width: 20%;
+    }
 }
 
 @media (min-width: 913px) and (max-width: 1025px) {
@@ -2159,6 +2403,19 @@
         width: 45%;
         bottom: 50px;
     }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-sec-txt {
+        width: 30%;
+    }
+
+    .fifth-sec-logo {
+        width: 20%;
+        height: 120px;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1281px) {
@@ -2202,10 +2459,6 @@
     
     .items {
         display: none;
-    }
-    
-    svg {
-        fill: white;
     }
     
     .first-line {
@@ -2258,6 +2511,18 @@
         width: 40%;
         height: 30px;
     }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-sec-txt {
+        width: 30%;
+    }
+
+    .fifth-sec-logo {
+        width: 20%;
+    }
 }
 
 @media (min-width: 1281px) and (max-width: 1445px) {
@@ -2301,10 +2566,6 @@
     
     .items {
         display: none;
-    }
-    
-    svg {
-        fill: white;
     }
     
     .first-line {
