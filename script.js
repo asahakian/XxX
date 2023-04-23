@@ -1,5 +1,59 @@
 const root = document.getElementById("root");
 
+// sixth section
+
+function SixthSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("sixth-section");
+
+    container.innerHTML = `
+        <h3 class="sixth-sec-h3">latest works</h3>
+        <p class="sixth-sec-p">Curabitur eu adipiscing lacus, a iaculis diam. Nullam placerat blandit auctor. Nulla accumsan ipsum et nibh
+        rhoncus, eget tempus sapien ultricies. Donec mollis lorem vehicula.
+        </p>
+
+        <div class="sixth-sec-images">
+            <div class="brand-images">
+                <img src="./images/book.jpg">
+                <div class="brandTxt">
+                    man external page
+                </div>
+            </div>
+
+            <div class="brand-images">
+                <img src="./images/class.jpg">
+
+                <div class="brandTxt">
+                    woman external page
+                </div>
+            </div>
+
+            <div class="brand-images">
+                <img src="./images/man.jpg">
+
+                <div class="brandTxt">
+                    man with bag external page
+                </div>
+            </div
+        </div>
+    `
+
+    return container;
+}
+
+// sixth section
+
+
+
+
+
+
+
+
+
+
+
 // fifth section
 
 function FifthSecLogoThree() {
@@ -648,3 +702,4 @@ root.appendChild(SecondSection());
 root.appendChild(ThirdSection());
 root.appendChild(FourthSection());
 root.appendChild(FifthSection());
+root.appendChild(SixthSection());

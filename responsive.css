@@ -1,6 +1,6 @@
 @media screen and (max-width: 281px) {
     .first-section-bg {
-        /* width: 100%; */
+        width: 100%;
         height: 550px;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -17,6 +17,11 @@
 
     .navigation-wrap {
         display: none;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -209,9 +214,36 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 900px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .sixth-sec-images {
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 180px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 50%;
+        transition: 0.5s;
     }
 }
 
@@ -234,6 +266,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -426,9 +463,37 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 1100px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 200px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -451,6 +516,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -645,9 +715,37 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 1150px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 200px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -670,6 +768,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -865,10 +968,38 @@
     .fifth-sec-logo {
         width: 100%;
     }
+    
+    .sixth-section {
+        width: 100%;;
+        height: 1150px;
+    }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 230px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -891,6 +1022,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -1086,9 +1222,37 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 1150px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 230px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -1111,6 +1275,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -1306,9 +1475,37 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 1150px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 250px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -1331,6 +1528,11 @@
 
     .logo {
         width: 35%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -1524,10 +1726,38 @@
     .fifth-sec-logo {
         width: 100%;
     }
+    
+    .sixth-section {
+        width: 100%;;
+        height: 1150px;
+    }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 250px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 60%;
+        transition: 0.5s;
     }
 }
 
@@ -1550,6 +1780,11 @@
 
     .logo {
         width: 35%;
+    }
+    
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -1744,9 +1979,37 @@
         width: 100%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        width: 100%;;
+        height: 1350px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .sixth-sec-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 300px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 75%;
+        transition: 0.5s;
     }
 }
 
@@ -1774,6 +2037,11 @@
     .logo {
         width: 25%;
         height: 50px;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -1928,9 +2196,29 @@
         width: 20%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        height: 2000px;
+    }
+
+    .sixth-sec-h3 {
+        font-size: 21px;
+        height: 60px;
+    }
+
+    .sixth-sec-p {
+        font-size: 18px;
+    }
+
+    .sixth-sec-images {
+        width: 100%;
+        height: 1500px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-images {
+        width: 100%;
     }
 
 }
@@ -1959,6 +2247,11 @@
     .logo {
         width: 25%;
         height: 50px;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -2113,9 +2406,34 @@
         width: 20%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        height: 2200px;
+    }
+
+    .sixth-sec-h3 {
+        font-size: 26px;
+        height: 60px;
+    }
+
+    .sixth-sec-p {
+        font-size: 20px;
+    }
+
+    .sixth-sec-images {
+        width: 100%;
+        height: 1700px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 450px;
+    }
+
+    .brandTxt {
+        font-size: 20px;
     }
 }
 
@@ -2143,6 +2461,11 @@
     .logo {
         width: 25%;
         height: 50px;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -2298,9 +2621,34 @@
         width: 20%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        height: 2300px;
+    }
+
+    .sixth-sec-h3 {
+        font-size: 30px;
+        height: 60px;
+    }
+
+    .sixth-sec-p {
+        font-size: 25px;
+    }
+
+    .sixth-sec-images {
+        width: 100%;
+        height: 1800px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-images {
+        width: 100%;
+        height: 470px;
+    }
+
+    .brandTxt {
+        font-size: 20px;
     }
 }
 
@@ -2324,6 +2672,11 @@
     .logo {
         width: 17%;
         height: 50px;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
 
     .burger-wrap {      
@@ -2472,9 +2825,27 @@
         height: 120px;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        height: 600px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 80px;
+        font-size: 23px;
+        height: 70px;
+    }
+
+    .sixth-sec-p {
+        font-size: 20px;
+    }
+
+    .sixth-sec-images {
+        height: 210px;
+    }
+
+    .brand-images:hover > .brandTxt {
+        top: 50%;
+        transition: 0.5s;
     }
 }
 
@@ -2499,6 +2870,11 @@
     .logo {
         width: 12%;
         height: 27px;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
+        animation: none;
     }
     
     .navigation-wrap {
@@ -2584,9 +2960,23 @@
         width: 20%;
     }
 
-    .scroll-btn {
-        margin-top: 70px;
-        animation: none;
+    .sixth-section {
+        height: 600px;
+    }
+
+    .sixth-sec-h3 {
+        margin-top: 80px;
+        font-size: 23px;
+        height: 70px;
+    }
+
+    .sixth-sec-p {
+        font-size: 20px;
+    }
+
+    .sixth-sec-images {
+        height: 250px;
+        margin-top: 50px;
     }
 }
 
