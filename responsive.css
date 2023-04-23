@@ -208,6 +208,10 @@
     .fifth-sec-logo {
         width: 100%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 281px) and (max-width: 361px) {
@@ -419,6 +423,10 @@
 
     .fifth-sec-logo {
         width: 100%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
     }
 }
 
@@ -633,6 +641,10 @@
 
     .fifth-sec-logo {
         width: 100%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
     }
 }
 
@@ -850,6 +862,10 @@
     .fifth-sec-logo {
         width: 100%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media(min-width: 391px) and (max-width: 413px) {
@@ -1064,6 +1080,10 @@
 
     .fifth-sec-logo {
         width: 100%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
     }
 }
 
@@ -1280,6 +1300,10 @@
     .fifth-sec-logo {
         width: 100%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 416px) and (max-width: 426px) {
@@ -1493,6 +1517,10 @@
 
     .fifth-sec-logo {
         width: 100%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
     }
 }
 
@@ -1708,6 +1736,10 @@
     .fifth-sec-logo {
         width: 100%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 769px) {
@@ -1886,6 +1918,10 @@
 
     .fifth-sec-logo {
         width: 20%;
+    }
+
+    .scroll-btn {
+        margin-top: 70px;
     }
 
 }
@@ -2067,6 +2103,10 @@
     .fifth-sec-logo {
         width: 20%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 821px) and (max-width: 913px) {
@@ -2247,6 +2287,10 @@
     .fifth-sec-logo {
         width: 20%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 913px) and (max-width: 1025px) {
@@ -2416,6 +2460,10 @@
         width: 20%;
         height: 120px;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1281px) {
@@ -2523,6 +2571,10 @@
     .fifth-sec-logo {
         width: 20%;
     }
+
+    .scroll-btn {
+        margin-top: 70px;
+    }
 }
 
 @media (min-width: 1281px) and (max-width: 1445px) {
@@ -2599,5 +2651,9 @@
 
     .fourth-section-text-block {
         width: 50%;
+    }
+
+    .scroll-btn {
+        margin-top: 60px;
     }
 }
