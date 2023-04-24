@@ -216,7 +216,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 900px;
+        height: 810px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -227,24 +228,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 13px;
+        font-size: 14px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 570px;
+        height: 560px;
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
         height: 180px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 50%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    }   
 }
 
 @media (min-width: 281px) and (max-width: 361px) {
@@ -465,7 +468,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 1100px;
+        height: 900px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -476,25 +480,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 750px;
+        height: 650px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 200px;
+        height: 210px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    }   
 }
 
 @media (min-width: 361px) and (max-width: 376px) {
@@ -717,7 +722,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 1150px;
+        height: 900px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -728,25 +734,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 13px;
     }
 
     .sixth-sec-images {
-        height: 800px;
+        height: 650px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 200px;
+        height: 210px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    }  
 }
 
 @media (min-width: 376px) and (max-width: 391px) {
@@ -971,7 +978,8 @@
     
     .sixth-section {
         width: 100%;;
-        height: 1150px;
+        height: 990px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -982,25 +990,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 800px;
+        height: 740px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 230px;
+        height: 240px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    }  
 }
 
 @media(min-width: 391px) and (max-width: 413px) {
@@ -1224,7 +1233,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 1150px;
+        height: 990px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -1235,25 +1245,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 800px;
+        height: 740px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 230px;
+        height: 240px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    } 
 }
 
 @media (min-width: 413px) and (max-width: 416px) {
@@ -1463,12 +1474,12 @@
     }
 
     .fifth-sec-txt > h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .fifth-sec-txt > p {
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .fifth-sec-logo {
@@ -1477,7 +1488,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 1150px;
+        height: 990px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -1488,25 +1500,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 800px;
+        height: 740px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 250px;
+        height: 240px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    } 
 }
 
 @media (min-width: 416px) and (max-width: 426px) {
@@ -1729,7 +1742,8 @@
     
     .sixth-section {
         width: 100%;;
-        height: 1150px;
+        height: 990px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -1740,25 +1754,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 800px;
+        height: 740px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 250px;
+        height: 240px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 60%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    } 
 }
 
 @media (min-width: 426px) and (max-width: 541px) {
@@ -1981,7 +1996,8 @@
 
     .sixth-section {
         width: 100%;;
-        height: 1350px;
+        height: 1240px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
@@ -1992,25 +2008,26 @@
 
     .sixth-sec-p {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        height: 1000px;
+        height: 990px;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 300px;
+        height: 320px;
+        pointer-events: none;
     }
 
-    .brand-images:hover > .brandTxt {
-        top: 75%;
-        transition: 0.5s;
-    }
+    .brandTxt {
+        display: none;
+    } 
 }
 
 @media (min-width: 541px) and (max-width: 769px) {
@@ -2197,29 +2214,39 @@
     }
 
     .sixth-section {
-        height: 2000px;
+        width: 100%;;
+        height: 1630px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
-        font-size: 21px;
-        height: 60px;
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
     }
 
     .sixth-sec-p {
-        font-size: 18px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        width: 100%;
-        height: 1500px;
-        padding: 30px;
+        height: 1380px;
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
+        height: 450px;
+        pointer-events: none;
     }
+
+    .brandTxt {
+        display: none;
+    } 
 
 }
 
@@ -2407,33 +2434,38 @@
     }
 
     .sixth-section {
-        height: 2200px;
+        width: 100%;;
+        height: 1630px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
-        font-size: 26px;
-        height: 60px;
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
     }
 
     .sixth-sec-p {
-        font-size: 20px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        width: 100%;
-        height: 1700px;
-        padding: 30px;
+        height: 1380px;
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
         height: 450px;
+        pointer-events: none;
     }
 
     .brandTxt {
-        font-size: 20px;
+        display: none;
     }
 }
 
@@ -2622,33 +2654,38 @@
     }
 
     .sixth-section {
-        height: 2300px;
+        width: 100%;;
+        height: 1860px;
+        padding: 0;
     }
 
     .sixth-sec-h3 {
-        font-size: 30px;
-        height: 60px;
+        margin-top: 50px;
+        font-size: 19px;
+        height: 40px;
     }
 
     .sixth-sec-p {
-        font-size: 25px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .sixth-sec-images {
-        width: 100%;
-        height: 1800px;
-        padding: 30px;
+        height: 1600px;
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .brand-images {
         width: 100%;
-        height: 470px;
+        height: 520px;
+        pointer-events: none;
     }
 
     .brandTxt {
-        font-size: 20px;
+        display: none;
     }
 }
 
