@@ -247,7 +247,21 @@
 
     .brandTxt {
         display: none;
-    }   
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 180px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 80%;
+    }
 }
 
 @media (min-width: 281px) and (max-width: 361px) {
@@ -499,7 +513,21 @@
 
     .brandTxt {
         display: none;
-    }   
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 160px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media (min-width: 361px) and (max-width: 376px) {
@@ -753,7 +781,21 @@
 
     .brandTxt {
         display: none;
-    }  
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 150px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 391px) {
@@ -1010,6 +1052,20 @@
     .brandTxt {
         display: none;
     }  
+
+    .view-portfolio {
+        width: 100%;
+        height: 150px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media(min-width: 391px) and (max-width: 413px) {
@@ -1264,7 +1320,21 @@
 
     .brandTxt {
         display: none;
-    } 
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media (min-width: 413px) and (max-width: 416px) {
@@ -1519,7 +1589,21 @@
 
     .brandTxt {
         display: none;
-    } 
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 16px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media (min-width: 416px) and (max-width: 426px) {
@@ -1773,7 +1857,21 @@
 
     .brandTxt {
         display: none;
-    } 
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 17px;
+    }
+
+    .view-portfolio > button {
+        width: 60%;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 541px) {
@@ -2027,7 +2125,21 @@
 
     .brandTxt {
         display: none;
-    } 
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 18px;
+    }
+
+    .view-portfolio > button {
+        width: 50%;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 769px) {
@@ -2246,8 +2358,21 @@
 
     .brandTxt {
         display: none;
-    } 
+    }
 
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 17px;
+    }
+
+    .view-portfolio > button {
+        width: 40%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
@@ -2466,6 +2591,20 @@
 
     .brandTxt {
         display: none;
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 17px;
+    }
+
+    .view-portfolio > button {
+        width: 40%;
     }
 }
 
@@ -2687,6 +2826,20 @@
     .brandTxt {
         display: none;
     }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 19px;
+    }
+
+    .view-portfolio > button {
+        width: 30%;
+    }
 }
 
 @media (min-width: 913px) and (max-width: 1025px) {
@@ -2884,6 +3037,20 @@
         top: 50%;
         transition: 0.5s;
     }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 17px;
+    }
+
+    .view-portfolio > button {
+        width: 30%;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1281px) {
@@ -3014,6 +3181,20 @@
     .sixth-sec-images {
         height: 250px;
         margin-top: 50px;
+    }
+
+    .view-portfolio {
+        width: 100%;
+        height: 170px;
+        padding-top: 30px;
+    }
+
+    .view-title {
+        font-size: 17px;
+    }
+
+    .view-portfolio > button {
+        width: 20%;
     }
 }
 

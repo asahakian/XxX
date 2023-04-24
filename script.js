@@ -2,6 +2,22 @@ const root = document.getElementById("root");
 
 // sixth section
 
+function WiewPortfolio() {
+    const container = document.createElement("div");
+
+    container.classList.add("view-portfolio");
+
+    container.innerHTML = `
+        <h3 class="view-title">want to see more works?</h3>
+        
+        <button>
+            <a href="https://github.com/asahakian?tab=repositories">visit my github page</a>
+        </button>
+    `
+
+    return container;
+}
+
 function SixthSection() {
     const container = document.createElement("div");
 
@@ -703,3 +719,4 @@ root.appendChild(ThirdSection());
 root.appendChild(FourthSection());
 root.appendChild(FifthSection());
 root.appendChild(SixthSection());
+root.appendChild(WiewPortfolio());

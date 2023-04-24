@@ -472,3 +472,40 @@
     top: 70%;
     transition: 0.5s;
 }
+
+.view-portfolio {
+    width: 100%;
+    height: 240px;
+    background-color: #111111;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.view-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+}
+
+.view-portfolio > button {
+    width: 15%;
+    height: 40px;
+    background-color: #ffffffcc;
+    margin-top: 30px;
+    border: none;
+    border-radius: 0.225rem;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.4em;
+    cursor: pointer;
+}
+
+.view-portfolio > button > a {
+    text-decoration: none;
+    color: black;
+}
