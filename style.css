@@ -509,3 +509,91 @@
     text-decoration: none;
     color: black;
 }
+
+.seventh-section {
+    width: 100%;
+    height: 1000px;
+    padding-top: 150px;
+}
+
+.seventh-sec-text-block {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.6em;
+}
+
+.icons-block {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ss-icns {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.title {
+    color: #111111;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.3em;
+    margin-top: 20px;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.86;
+    margin-top: 20px;
+}
+
+.star-icn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-size: 40px;
+}
+
+.clock-icn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f017";
+    font-size: 40px;
+}
+
+.baloon-icn::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f179";
+    font-size: 40px;
+}
+
+.heart-icn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    font-size: 40px;
+}
+
+.responsible-icn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f186";
+    font-size: 40px;
+}
+
+.chat-icn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f075";
+    font-size: 40px;
+}

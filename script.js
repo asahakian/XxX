@@ -1,5 +1,91 @@
 const root = document.getElementById("root");
 
+// seventh section
+
+function SeventhSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("seventh-section");
+
+    container.innerHTML = `
+        <div class="seventh-sec-text-block">why choose us?</div>
+
+        <div class="icons-block">
+
+
+            <div class="ss-icns">
+                <div class="star-icn"></div>
+                <h3 class="title">we're creative</h3>
+                <p class="content">Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                pellentesque mattis. Maecenas volutpat,
+                diam enim.</p>
+            </div>
+
+            <div class="ss-icns">
+                <div class="clock-icn"></div>
+                <h3 class="title">we're punctual</h3>
+                <p class="content">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum orci sit amet, iaculis libero.
+                </p>
+            </div>
+
+            <div class="ss-icns">
+                <div class="baloon-icn"></div>
+                <h3 class="title">we have magic</h3>
+                <p class="content">Curabitur iaculis accumsan augue, nec finibus mauris
+                pretium eu. Duis placerat ex gravida nibh tristique
+                porta. Nulla facilisi. Suspendisse ultricies eros blandit.
+                </p>
+            </div>
+
+
+        </div>
+
+
+        <div class="icons-block">
+
+
+            <div class="ss-icns">
+                <div class="heart-icn"></div>
+                <h3 class="title">we have magic</h3>
+                <p class="content">Cras luctus interdum sodales. Quisque quis odio dui.
+                Sedes sit amet neque malesuada, lobortis commodo
+                magna ntesque pharetra metus vivera sagittis.
+                </p>
+            </div>
+
+            <div class="ss-icns">
+                <div class="responsible-icn"></div>
+                <h3 class="title">we're responsible</h3>
+                <p class="content">Fusce aliquet quam eget neque ultrices elementum.
+                Nulla posuere felis id arcu blandit sagittis. Eleifender
+                vestibulum purus, sit amet vulputate risus.
+                </p>
+            </div>
+
+            <div class="ss-icns">
+                <div class="chat-icn"></div>
+                <h3 class="title">we're friendly</h3>
+                <p class="content">Pulvinar vitae neque et porttitor. Integer non dapibus
+                diam, ac eleifend lectus. Praesent sed nisi eleifend,
+                fermentum orci sit amet, iaculis libero interdum.
+                </p>
+            </div>
+
+
+        </div>
+    `
+
+    return container;
+}
+
+
+
+
+
+
+
+// seventh section
+
 // sixth section
 
 function WiewPortfolio() {
@@ -720,3 +806,4 @@ root.appendChild(FourthSection());
 root.appendChild(FifthSection());
 root.appendChild(SixthSection());
 root.appendChild(WiewPortfolio());
+root.appendChild(SeventhSection());
