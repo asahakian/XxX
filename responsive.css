@@ -1040,7 +1040,7 @@
     }
 
     .es-span {
-        font-size: 19px;
+        font-size: 21px;
         float: left !important;
     }
 
@@ -4054,6 +4054,10 @@
 
     .view-portfolio > button {
         width: 20%;
+    }
+
+    .es-images-block {
+        width: 100%;
     }
 }
 
