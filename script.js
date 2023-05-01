@@ -1,5 +1,71 @@
 const root = document.getElementById("root");
 
+// eight section
+
+function EightSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("eight-section");
+
+    container.innerHTML = `
+        <div class="es-txt-block">
+            <span class="es-span">bestsellers</span>
+            <a href="https://github.com/asahakian" class="es-link">view my profile ></a>
+        </div>
+
+        <div class="es-images-block">
+
+
+            <div class="es-images">
+                <img src="./images/shop-prev-1.jpg" alt="" class="es-img">
+                <p class="es-img-title">g-star polo applique jersey</p>
+                <p class="es-img-price">$̶ 1̶5̶0̶.̶0̶0̶  $94.75</p>
+                <button class="es-img-btn">add to card</button>
+            </div>
+
+
+            <div class="es-images">
+                <img src="./images/shop-prev-2.jpg" alt="" class="es-img">
+                <p class="es-img-title">only % sons pique polo shirt</p>
+                <p class="es-img-price">$ 28.99</p>
+                <button class="es-img-btn">add to card</button>
+            </div>
+
+
+            <div class="es-images">
+                <img src="./images/shop-prev-3.jpg" alt="" class="es-img">
+                <p class="es-img-title">longlive long sleeve</p>
+                <p class="es-img-price">$ 39.99</p>
+                <button class="es-img-btn">add to card</button>
+            </div>
+
+
+            <div class="es-images">
+                <img src="./images/shop-prev-4.jpg" alt="" class="es-img">
+                <p class="es-img-title">polo shirt with floral serves</p>
+                <p class="es-img-price">$ 85.99</p>
+                <button class="es-img-btn">add to card</button>
+            </div>
+
+
+        </div>
+    `
+
+    return container;
+}
+
+// eight section
+
+
+
+
+
+
+
+
+
+
+
 // seventh section
 
 function SeventhSection() {
@@ -807,3 +873,4 @@ root.appendChild(FifthSection());
 root.appendChild(SixthSection());
 root.appendChild(WiewPortfolio());
 root.appendChild(SeventhSection());
+root.appendChild(EightSection());
