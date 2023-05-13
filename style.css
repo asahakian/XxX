@@ -675,7 +675,7 @@
     color: #777777;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.3em;
     text-decoration: none;
@@ -689,4 +689,65 @@
     content: "\f07a";
     font-size: 11px;
     margin: 5px;
+}
+
+.nineth-section {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ns-image {
+    width: 40%;
+    height: 300px;
+    /* border: 1px solid red; */
+    background-image: url("./images/promo-3.png");
+    background-size: cover;
+
+}
+
+.ns-txt {
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: -20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.ns-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #111111;
+    font-family: 'Dosis', arial, sans-serif;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+}
+
+.ns-content {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #5f5f5f;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+.ns-button {
+    width: 32%;
+    height: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
 }

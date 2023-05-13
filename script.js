@@ -1,5 +1,34 @@
 const root = document.getElementById("root");
 
+// nineth section
+
+function NinethSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("nineth-section");
+
+    container.innerHTML = `
+        <div class="ns-image"></div>
+
+        <div class="ns-txt">
+            <h3 class="ns-title">awesome template</h3>
+            <p class="ns-content">Phasellus facilisis mauris vel velit molestie
+            pellentesque. Donec rutrum, tortor ut elementum venenatis, purus magna bibendum
+            nisl, ut accumsan ipsum erat eu sapien.</p>
+            <div class="ns-button">buy now</div>
+        </div>
+    `
+
+    return container;
+}
+
+
+
+
+
+
+// nineth section
+
 // eight section
 
 function EightSection() {
@@ -874,3 +903,4 @@ root.appendChild(SixthSection());
 root.appendChild(WiewPortfolio());
 root.appendChild(SeventhSection());
 root.appendChild(EightSection());
+root.appendChild(NinethSection());
