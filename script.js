@@ -8,12 +8,72 @@ function EleventhSection() {
     container.classList.add("eleventh-section");
 
     container.innerHTML = `
-        <div class="es-first-line"></div>
+        <div class="els-first-line">
+            <span class="els-title">latest news</span>
+            <a href="#" class="els-link">all news in our blog ></a>
+        </div>
 
-        <div class="es-content-block">
-            <div class="es-contents"></div>
-            <div class="es-contents"></div>
-            <div class="es-contents"></div>
+        <div class="els-content-block">
+        
+            <div class="els-contents">
+
+                <div class="els-image">
+                    <img src="./images/post-prev-1.jpg" alt="">
+                </div>
+
+                <div class="els-content">
+                    <p class="els-ctt-title">new web design trends</p>
+                    <p class="els-mini-title">john doe 10 december</p>
+                    <p class="els-txt">
+                        Maecenas volutpat, diam enim sagittis quam, id
+                        porta quam. Sed id dolor consectetur fermentum
+                        nibh volutpat, accumsan purus.
+                    </p>
+
+                    <button class="els-btn">read more ></button>
+                </div>
+
+            </div>
+
+            <div class="els-contents">
+
+                <div class="els-image">
+                    <img src="./images/post-prev-2.jpg" alt="">
+                </div>
+
+                <div class="els-content">
+                    <p class="els-ctt-title">new web design trends</p>
+                    <p class="els-mini-title">john doe 10 december</p>
+                    <p class="els-txt">
+                        Maecenas volutpat, diam enim sagittis quam, id
+                        porta quam. Sed id dolor consectetur fermentum
+                        nibh volutpat, accumsan purus.
+                    </p>
+
+                    <button class="els-btn">read more ></button>
+                </div>
+
+            </div>
+
+            <div class="els-contents">
+
+                <div class="els-image">
+                    <img src="./images/post-prev-3.jpg" alt="">
+                </div>
+
+                <div class="els-content">
+                    <p class="els-ctt-title">hipster's in web</p>
+                    <p class="els-mini-title">john doe 10 december</p>
+                    <p class="els-txt">
+                        Maecenas volutpat, diam enim sagittis quam, id
+                        porta quam. Sed id dolor consectetur fermentum
+                        nibh volutpat, accumsan purus.
+                    </p>
+
+                    <button class="els-btn">read more ></button>   
+                </div>
+
+            </div>
         </div>
     `
 
@@ -966,4 +1026,4 @@ root.appendChild(SeventhSection());
 root.appendChild(EightSection());
 root.appendChild(NinethSection());
 root.appendChild(TenthSection());
-// root.appendChild(EleventhSection());
+root.appendChild(EleventhSection());
