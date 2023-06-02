@@ -2,6 +2,43 @@ const root = document.getElementById("root");
 
 
 
+// footer
+
+function Footer() {
+    const container = document.createElement("div");
+
+    container.classList.add("footer");
+
+    container.innerHTML =  `
+        <div class="footer-logo"></div>
+        <div class="footer-icons">
+            <div class="footer-icon facebook">
+                <img src="./images/facebook.png\" alt="">
+            </div>
+
+            <div class="footer-icon instagram">
+                <img src="./images/instagram.png\" alt="">
+            </div>
+
+            <div class="footer-icon github">
+                <img src="./images/github.png\" alt="">
+            </div>
+
+            <div class="footer-icon pinterest">
+                <img src="./images/pinterest.png\" alt="">
+            </div>
+        </div>
+
+    `
+
+    return container;
+}
+
+
+// footer
+
+
+
 function See() {
     const container = document.createElement("div");
 
@@ -1114,3 +1151,4 @@ root.appendChild(TenthSection());
 root.appendChild(EleventhSection());
 root.appendChild(TwelfthSection());
 root.appendChild(See());
+root.appendChild(Footer());

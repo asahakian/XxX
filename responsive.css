@@ -498,6 +498,15 @@
     .ts-view {
         font-size: 15px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 60px;
+    }
+
+    .footer-icons {
+        width: 80%;
+    }
 }
 
 @media (min-width: 281px) and (max-width: 361px) {
@@ -999,6 +1008,15 @@
 
     .ts-view {
         font-size: 15px;
+    }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 60px;
+    }
+
+    .footer-icons {
+        width: 75%;
     }
 }
 
@@ -1502,6 +1520,15 @@
 
     .ts-view {
         font-size: 14px;
+    }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 60px;
+    }
+
+    .footer-icons {
+        width: 70%;
     }
 }
 
@@ -2008,6 +2035,15 @@
     .ts-view {
         font-size: 14px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 75%;
+    }   
 }
 
 @media(min-width: 391px) and (max-width: 413px) {
@@ -2544,6 +2580,15 @@
     .ts-view {
         font-size: 14px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 75%;
+    }   
 }
 
 @media (min-width: 413px) and (max-width: 416px) {
@@ -3043,6 +3088,15 @@
     .ts-view {
         font-size: 14px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 75%;
+    }   
 }
 
 @media (min-width: 416px) and (max-width: 426px) {
@@ -3478,6 +3532,15 @@
     .ts-view {
         font-size: 14px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 75%;
+    }   
 }
 
 @media (min-width: 426px) and (max-width: 541px) {
@@ -3979,6 +4042,15 @@
     .ts-view {
         font-size: 17px;
     }
+
+    .footer-logo {
+        width: 30%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 60%;
+    }   
 }
 
 @media (min-width: 541px) and (max-width: 769px) {
@@ -4330,6 +4402,15 @@
     .ts-typeBlock {
         width: 70%;
     }
+
+    .footer-logo {
+        width: 10%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 40%;
+    } 
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
@@ -4675,6 +4756,15 @@
     .ts-typeBlock {
         width: 70%;
     }
+
+    .footer-logo {
+        width: 10%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 40%;
+    } 
 }
 
 @media (min-width: 821px) and (max-width: 913px) {
@@ -5027,6 +5117,15 @@
     .ts-typeBlock {
         width: 70%;
     }
+
+    .footer-logo {
+        width: 10%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 35%;
+    } 
 }
 
 @media (min-width: 913px) and (max-width: 1025px) {
@@ -5327,6 +5426,15 @@
     .ts-typeBlock {
         width: 60%;
     }
+
+    .footer-logo {
+        width: 10%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 30%;
+    } 
 }
 
 @media (min-width: 1025px) and (max-width: 1281px) {
@@ -5525,7 +5633,16 @@
     
     .ts-typeBlock {
         width: 50%;
-    }   
+    }
+
+    .footer-logo {
+        width: 10%;
+        background-size: 70px;
+    }
+
+    .footer-icons {
+        width: 25%;
+    } 
 }
 
 @media (min-width: 1281px) and (max-width: 1445px) {
