@@ -1,5 +1,61 @@
 const root = document.getElementById("root");
 
+
+
+function See() {
+    const container = document.createElement("div");
+
+    container.classList.add("view-portfolio");
+
+    container.innerHTML = `
+        <h3 class="view-title ts-view">want to discuss new project?</h3>
+        
+        <button class="ts-btn-view">
+            <a href="#">let's talk</a>
+        </button>
+    `
+
+    return container;
+}
+
+
+
+
+
+
+
+
+
+// twelfth section
+
+function TwelfthSection() {
+    const container = document.createElement("div");
+
+    container.classList.add("twelfth-section");
+
+    container.innerHTML = `
+        <div class="ts-title">stay informed with our newsteller</div>
+        <div class="ts-typeBlock">
+            <input class="ts-type" type="text" placeholder="enter yout email">
+            <div class="ts-btn">subscribe</div>
+        </div>
+    `
+
+    return container;
+}
+
+// twelfth section
+
+
+
+
+
+
+
+
+
+
+
 // eleventh section
 
 function EleventhSection() {
@@ -88,6 +144,16 @@ function EleventhSection() {
 
 // eleventh section
 
+
+
+
+
+
+
+
+
+
+
 // tenth section
 
 function TenthSection() {
@@ -121,6 +187,16 @@ function TenthSection() {
 
 // tenth section
 
+
+
+
+
+
+
+
+
+
+
 // nineth section
 
 function NinethSection() {
@@ -149,6 +225,16 @@ function NinethSection() {
 
 
 // nineth section
+
+
+
+
+
+
+
+
+
+
 
 // eight section
 
@@ -1014,7 +1100,6 @@ function FirstBackground() {
 
 // first section
 
-
 root.appendChild(FirstBackground());
 root.appendChild(SecondSection());
 root.appendChild(ThirdSection());
@@ -1027,3 +1112,5 @@ root.appendChild(EightSection());
 root.appendChild(NinethSection());
 root.appendChild(TenthSection());
 root.appendChild(EleventhSection());
+root.appendChild(TwelfthSection());
+root.appendChild(See());
