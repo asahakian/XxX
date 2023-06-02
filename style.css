@@ -954,7 +954,6 @@
 .footer-icons {
     width: 20%;
     height: 40px;
-    border: 1px solid red;
     margin: auto;
     margin-top: 30px;
     display: flex;
@@ -964,7 +963,6 @@
 .footer-icon {
     width: 40px;
     height: 40px;
-    border: 1px solid red;
     overflow: hidden;
 }
 
